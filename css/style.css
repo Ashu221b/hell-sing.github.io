@@ -7,16 +7,17 @@
 
 .wthreeskills-grid-1 h4 {
 	width: 40%;
+	margin: 0 30px 0 0;
 }
 
 .wthreeskills-grid-2 h4 {
-	width: 33%;
+	width: 40%;
 }
 
 	/*-- Tabs --*/
 
 	.tabs {
-		margin: 30px 0 0 0;
+		margin: 30px 0 0 -38px;
 	}
 
 	.sap_tabs {
@@ -85,7 +86,8 @@
 
 	.resp-tab-content {
 		display: none;
-		padding-top: 40px;
+		padding-top: 15px;
+		padding-left: 40px;
 	}
 
 	.resp-content-active, .resp-accordion-active {
