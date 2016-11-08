@@ -3,6 +3,16 @@
 	height: 480px;
 
 }
+.team{
+color:#fff;border-color:#fe7143;font-weight:700;
+	background-image: url("team.jpg");
+		height: 636pxx;
+		background-attachment: fixed;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+
+}
 .about{
 color:#fff;border-color:#fe7143;font-weight:700;
 	background-image: url("about.jpg");
