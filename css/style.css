@@ -1,4 +1,7 @@
 /*-- Skills --*/
+.feat li{
+		margin: 10px 0;
+}
 
 .wthreeskills {
 	padding: 100px 0;
