@@ -6,11 +6,18 @@
 .wthreeskills {
 	padding: 100px 0;
 	background-color: #F5F5F5;
+	margin: 0 30px 0  30px;
+}
+.wthreeskills-grid{
+		padding: 0 20px 0 20px;
+
 }
 
+.wthreeskills-grid-2 {
+	background-color: #f2f2f2;
+}
 .wthreeskills-grid-1 h4 {
 	width: 40%;
-	margin: 0 30px 0 0;
 }
 
 .wthreeskills-grid-2 h4 {
