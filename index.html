@@ -41,7 +41,7 @@
                         <a href="#skills">Skills</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#team">Team</a>
+                        <a href="#education">Education</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#portfolio">Portfolio</a>
@@ -78,6 +78,15 @@
                 <div class="col-lg-12 text-center">
                 </div>
             </div>
+            <div class="col-sm-4 portfolio-item">
+                <a  class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                        </div>
+                    </div>
+                    <img src="img/profile.jpg" class="img-responsive" alt="">
+                </a>
+            </div>
             <div class="col-md-8">
              <p><ul style="list-style-type:disc">
               <font size="5">
@@ -91,20 +100,12 @@
                <li>Download my <i class="fa fa-file-text" aria-hidden="true"></i><a href="#contact"> Resume</a> or feel free to <i class="fa fa-envelope" aria-hidden="true"></i><a href="#contact"> contact</a> me anytime.</li>
              </font></ul> </p>
           </div>
-          <div class="col-sm-4 portfolio-item">
-              <a  class="portfolio-link" data-toggle="modal">
-                  <div class="caption">
-                      <div class="caption-content">
-                      </div>
-                  </div>
-                  <img src="img/profile.jpg" class="img-responsive" alt="">
-              </a>
-          </div>
+
             </div>
         </div>
     </section>
 
-    <section class="about" id="about">
+    <section class="success" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -156,39 +157,23 @@
            </div>
        </section>
 
-       <section class="team" id="team">
+
+       <section class="team" id="education">
            <div class="container">
                <div class="row">
-                   <div class="col-lg-12 text-center">
-                    <h4 align="center" ><i class="fa fa-quote-left fa-2x" &naria-hidden="true"></i> Teamwork is the secret that makes common people achieve uncommon results <i class="fa fa-quote-right fa-2x" &naria-hidden="true"></i></h4>
-                   </div>
+                 <div class="col-lg-12 text-center">
+                     <h2>Education</h2>
+                     <hr class="star-primary">
+                 </div>
                </div>
                <div class="row">
-                   <div class="col-sm-4 portfolio-item">
+                   <div class="col-sm-12 portfolio-item">
                        <a href="https://web.facebook.com/profile.php?id=100001186394443&fref=ts" target="_blank" class="portfolio-link" data-toggle="modal">
                            <div class="caption">
                                <div class="caption-content">
                                </div>
                            </div>
                            <img src="img/team/jashan.png" class="img-responsive" alt="">
-                       </a>
-                   </div>
-                   <div class="col-sm-4 portfolio-item">
-                       <a href="https://web.facebook.com/Harshit.kashyaprajput?fref=ts" target="_blank" class="portfolio-link" data-toggle="modal">
-                           <div class="caption">
-                               <div class="caption-content">
-                               </div>
-                           </div>
-                           <img src="img/team/harshit.png" class="img-responsive" alt="">
-                       </a>
-                   </div>
-                   <div class="col-sm-4 portfolio-item">
-                       <a href="http://adityaharsh.com/" target="_blank" class="portfolio-link" data-toggle="modal">
-                           <div class="caption">
-                               <div class="caption-content">
-                               </div>
-                           </div>
-                           <img src="img/team/aditya.png" class="img-responsive" alt="">
                        </a>
                    </div>
                </div>
@@ -576,31 +561,34 @@
 			</script>
 		<!-- Horizontal-Tabs-JavaScript -->
 
-		<!-- Stats-Number-Scroller-Animation-JavaScript -->
-			<script src="js/waypoints.min.js"></script>
-			<script src="js/counterup.min.js"></script>
-			<script>
-				jQuery(document).ready(function( $ ) {
-					$('.counter').counterUp({
-						delay: 10,
-						time: 1000,
-					});
-				});
-			</script>
-		<!-- //Stats-Number-Scroller-Animation-JavaScript -->
 
 		<!-- Progressive-Bars-JavaScript -->
 		<script src="js/bars.js"></script>
 		<!-- //Progressive-Bars-JavaScript -->
 
-		<!-- Tabs-JavaScript -->
-			<script src="js/jquery.filterizr.js"></script>
-			<script src="js/controls.js"></script>
-			<script type="text/javascript">
-				$(function() {
-					$('.filtr-container').filterizr();
-				});
-			</script>
-		<!-- //Tabs-JavaScript -->
+
+    		<!-- Tabs-JavaScript -->
+    			<script src="js/jquery.filterizr.js"></script>
+    			<script src="js/controls.js"></script>
+    			<script type="text/javascript">
+    				$(function() {
+    					$('.filtr-container').filterizr();
+    				});
+    			</script>
+    		<!-- //Tabs-JavaScript -->
+
+    		<!-- Smooth-Scrolling-JavaScript -->
+    			<script type="text/javascript" src="js/move-top.js"></script>
+    			<script type="text/javascript" src="js/easing.js"></script>
+    			<script type="text/javascript">
+    				jQuery(document).ready(function($) {
+    					$(".scroll").click(function(event){
+    						event.preventDefault();
+    						$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+    					});
+    				});
+    			</script>
+    		<!-- //Smooth-Scrolling-JavaScript -->
+
 </body>
 </html>
