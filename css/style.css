@@ -2,16 +2,6 @@
 
 
 .feat{
-	height: 500px;
-		background-color: #f2f2f2;
-}
-.featb{
-	height: 550px;
-		background-color: #f2f2f2;
-}
-
-.featc{
-	height: 500px;
 		background-color: #f2f2f2;
 }
 
@@ -25,10 +15,11 @@
 
 }
 .about{
-color:#fff;border-color:#fe7143;font-weight:700;
+	color:#fff;
+	border-color:#fe7143;
+	font-weight:700;
 	background-image: url("abouta.jpg");
-		height: 636pxx;
-		background-attachment: fixed;
+	background-attachment: fixed;
 	 background-position: center;
 	 background-repeat: no-repeat;
 	 background-size: cover;
