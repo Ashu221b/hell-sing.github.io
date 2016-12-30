@@ -16,13 +16,12 @@
 }
 
 .team{
-color:#fff;border-color:#fe7143;font-weight:700;
+
 	background-image: url("team.jpg");
-		height: 636pxx;
-		background-attachment: fixed;
-	 background-position: center;
-	 background-repeat: no-repeat;
-	 background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 
 }
 .about{
@@ -39,34 +38,25 @@ color:#fff;border-color:#fe7143;font-weight:700;
 		margin: 10px 0;
 }
 
+/*-- Skills --*/
+
 .wthreeskills {
 	padding: 100px 0;
 	background-color: #F5F5F5;
-	margin: 0 30px 0  30px;
-}
-.wthreeskills-grid{
-		padding: 0 20px 0 20px;
-
-}
-.wthreeskills-grid-1 {
-
 }
 
-.wthreeskills-grid-2 {
-
-}
 .wthreeskills-grid-1 h4 {
 	width: 40%;
 }
 
 .wthreeskills-grid-2 h4 {
-	width: 40%;
+	width: 33%;
 }
 
 	/*-- Tabs --*/
 
 	.tabs {
-		margin: 30px 0 0 -38px;
+		margin: 30px 0 0 0;
 	}
 
 	.sap_tabs {
@@ -135,8 +125,7 @@ color:#fff;border-color:#fe7143;font-weight:700;
 
 	.resp-tab-content {
 		display: none;
-		padding-top: 15px;
-		padding-left: 40px;
+		padding-top: 40px;
 	}
 
 	.resp-content-active, .resp-accordion-active {
@@ -154,6 +143,7 @@ color:#fff;border-color:#fe7143;font-weight:700;
 	}
 
 	/*-- //Tabs --*/
+
 
 	/*-- Number-Scroller --*/
 
