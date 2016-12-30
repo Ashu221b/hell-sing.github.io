@@ -53,18 +53,23 @@
 .grade {
 	color:#fff;
 	font-weight:700;
-	 background: -moz-linear-gradient(to bottom right,#fe9467, #c7283e);
-    background: linear-gradient(to bottom right,#fe9467, #c7283e); /* Standard syntax (must be last) */
-}
-.grade1 {
-	color:#fff;
-	font-weight:700;
 	background-image: url("education.jpg");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.grade1 {
+	color:#fff;
+	font-weight:700;
+
+  background-image: url("about.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .feat{
 		  background: linear-gradient(to right,#ffffff,#f2f2f2);
 }
