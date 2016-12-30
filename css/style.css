@@ -1,8 +1,7 @@
 /*-- Skills --*/
 
-
 .feat{
-		background-color: #f2f2f2;
+		/*background-color: #f2f2f2;*/
 }
 
 .team{
@@ -14,14 +13,8 @@
 }
 .about{
 	color:#fff;
-	border-color:#fe7143;
 	font-weight:700;
-	background-image: url("about.jpeg");
-	background-attachment: fixed;
-	 background-position: center;
-	 background-repeat: no-repeat;
-	 background-size: cover;
-
+	background-color: #ff884d;
 }
 .feat li{
 		margin: 10px 0;
@@ -29,9 +22,11 @@
 
 /*-- Skills --*/
 
-.wthreeskills {
-	padding: 100px 0;
-	background-color: #F5F5F5;
+.wthreeskillsa {
+	background-color: #e1e1e1;
+}
+.wthreeskillsb {
+	background-color: #d9d9d9;
 }
 
 .wthreeskills-grid-1 h4 {
